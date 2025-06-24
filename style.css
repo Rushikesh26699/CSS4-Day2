@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800&display=swap");
+
+.main {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.menuCard {
+  border: 2px solid gray;
+  width: 400px;
+  height: 420px;
+  border-radius: 20px;
+  padding: 15px;
+  position: relative;
+}
+
+.menuCardImg {
+  width: 100%;
+  height: 20%;
+}
+
+.menuCardImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.menuCardOff {
+  position: absolute;
+  /* border: 2px solid red; */
+  top: 210px;
+  /* height: 30px; */
+  background: rgb(104, 1, 199);
+  color: white;
+  width: 40%;
+  height: 10%;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuCardTime {
+  background: white;
+  color: black;
+  width: 12%;
+  height: 8%;
+  text-align: top;
+  border-radius: 5px;
+  position: absolute;
+  right: 25px;
+  top: 220px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.menuCardHead {
+  font-size: 24px;
+  margin-top: 10px;
+}
+.menuCardSubH {
+  color: gray;
+  margin-top: -30px;
+}
+
+.menuCardFooter {
+  /* border: 1px solid red; */
+  color: gray;
+  height: 15%;
+  font-weight: 500;
+}
+
+/* ----------------------- */
+
+.Bali {
+  /* border: 2px solid gray; */
+  border-radius: 20px;
+  width: 600px;
+  height: 420px;
+  padding: 15px;
+  position: relative;
+}
+
+.BaliImgDiv {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 90%;
+  border-radius: 20px;
+}
+
+.BaliImgDiv img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  filter: blur(1px);
+}
+
+.BaliContent {
+  position: absolute;
+  top: 30%;
+  text-align: center;
+
+  /* color: white; */
+}
+
+.BaliContent h4 {
+  font-size: 24px;
+  margin: 0;
+  color: aliceblue;
+}
+
+.BaliContent p {
+  font-size: 14px;
+}
+
+.Bali button {
+  width: 25%;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 25px;
+  border: none;
+}
+
+/* ----------------------------------- */
+
+.zomato {
+  width: 800px;
+  height: 250px;
+  /* border: 1px solid gray; */
+  padding: 10px;
+  position: relative;
+}
+
+.zomatoImg {
+  width: 100%;
+  height: 100%;
+}
+
+.zomatoImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(1px);
+  filter: brightness(55%);
+}
+
+.zomatoContent {
+  position: absolute;
+  top: 80px;
+  left: 65px;
+  text-align: center;
+  /* border: 2px solid white; */
+  width: 80%;
+}
+
+.zomatoContent h4 {
+  font-size: 34px;
+  color: white;
+  margin: 0;
+}
+
+.zomatoContent p {
+  color: white;
+  font-size: 16px;
+}
+
+.zomatoNav {
+  width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.profileCard {
+  /* border: 2px solid red; */
+  width: 300px;
+  height: 400px;
+  padding: 10px;
+}
+
+.profile {
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.profile h1{
+    margin: 0;
+}
+
+.profileImg {
+  width: 100%;
+  height: 40%;
+}
+
+.profileImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.profilePic {
+  width: 30%;
+  height: 25%;
+  position: absolute;
+  top: 100px;
+  left: 35%;
+}
+
+.profilePic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px solid white;
+}
